@@ -1,0 +1,8 @@
+2025-03-04 10:17:42.3268 | INFO | HelloGreetingApplication.Controllers.HelloGreetingController | Get Method Executed
+2025-03-04 10:17:51.8444 | INFO | HelloGreetingApplication.Controllers.HelloGreetingController | Post Method Executed
+2025-03-04 10:18:08.6681 | INFO | HelloGreetingApplication.Controllers.HelloGreetingController | Put Method Executed
+2025-03-04 10:18:19.8506 | INFO | HelloGreetingApplication.Controllers.HelloGreetingController | Patch Method Executed
+2025-03-04 10:18:21.9896 | INFO | HelloGreetingApplication.Controllers.HelloGreetingController | Patch Method Executed
+2025-03-04 10:18:34.2029 | INFO | HelloGreetingApplication.Controllers.HelloGreetingController | Delete Method Executed
+2025-03-04 11:38:10.1078 | INFO | HelloGreetingApplication.Controllers.HelloGreetingController | Greet message sent successfully
+2025-03-04 11:39:02.2006 | INFO | HelloGreetingApplication.Controllers.HelloGreetingController | Greet message sent successfully

@@ -1,10 +1,12 @@
 using BusinessLayer.Interface;
 using BusinessLayer.Service;
+using NLog;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+var logger = LogManager.Setup().LoadConfigurationFromFile("nlog.config").GetCurrentClassLogger();
+logger.Info("Application is starting...");
 builder.Services.AddControllers();
 builder.Services.AddScoped<IGreetingBL, GreetingBL>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
